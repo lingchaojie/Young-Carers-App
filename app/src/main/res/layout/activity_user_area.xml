@@ -25,46 +25,44 @@
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginTop="50dp"
-        android:src="@drawable/twitter"
-        android:layout_below="@+id/imageView2"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/imageView5" />
+        android:src="@drawable/help2"
+        android:id="@+id/imageView9"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_alignLeft="@+id/imageView11"
+        android:layout_alignStart="@+id/imageView11" />
 
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:src="@drawable/news"
-        android:id="@+id/imageView"
-        android:layout_below="@+id/imageView4"
-        android:layout_marginTop="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="24dp"
-        android:layout_marginStart="24dp" />
+        android:src="@drawable/profile"
+        android:id="@+id/imageView7"
+        android:layout_marginBottom="29dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
 
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginTop="50dp"
-        android:src="@drawable/phone"
-        android:layout_below="@+id/imageView5"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/imageView10" />
+        android:src="@drawable/calendar3"
+        android:id="@+id/imageView4"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
 
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginRight="24dp"
-        android:src="@drawable/search"
-        android:layout_below="@+id/imageView6"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="50dp"
-        android:id="@+id/imageView11" />
+        android:src="@drawable/parents2"
+        android:id="@+id/imageView2"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignStart="@+id/imageView5" />
 
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:src="@drawable/chef"
+        android:src="@drawable/carerscentre"
         android:id="@+id/imageView1"
         android:layout_marginTop="19dp"
         android:layout_below="@+id/toolbar"
@@ -74,68 +72,70 @@
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:src="@drawable/calendar"
-        android:id="@+id/imageView2"
-        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginTop="33dp"
+        android:src="@drawable/staff"
+        android:id="@+id/imageView5"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/videocameraicon"
+        android:id="@+id/imageView"
+        android:layout_marginTop="37dp"
+        android:layout_alignTop="@+id/imageView10"
+        android:layout_toLeftOf="@+id/imageView10"
+        android:layout_toStartOf="@+id/imageView10"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/home"
+        android:id="@+id/imageView10"
+        android:layout_marginBottom="14dp"
+        android:layout_above="@+id/imageView8"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/teddy"
+        android:id="@+id/imageView3"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignStart="@+id/imageView6" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/settings"
+        android:id="@+id/imageView8"
+        android:layout_alignTop="@+id/imageView7"
         android:layout_alignLeft="@+id/imageView5"
         android:layout_alignStart="@+id/imageView5" />
 
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginRight="10dp"
-        android:src="@drawable/flag"
-        android:id="@+id/imageView3"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_alignRight="@+id/imageView6"
-        android:layout_alignEnd="@+id/imageView6"
-        android:layout_marginEnd="10dp" />
-
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:src="@drawable/hiking"
-        android:id="@+id/imageView4"
-        android:layout_alignTop="@+id/imageView5"
-        android:layout_alignLeft="@+id/imageView7"
-        android:layout_alignStart="@+id/imageView7" />
-
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:src="@drawable/map"
+        android:src="@drawable/gamecontroller2"
         android:id="@+id/imageView6"
         android:layout_alignTop="@+id/imageView5"
-        android:layout_alignLeft="@+id/imageView9"
-        android:layout_alignStart="@+id/imageView9" />
-
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:src="@drawable/news"
-        android:id="@+id/imageView7"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/imageView"
-        android:layout_alignStart="@+id/imageView"
-        android:layout_marginBottom="29dp" />
-
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:src="@drawable/phone"
-        android:id="@+id/imageView8"
-        android:layout_alignTop="@+id/imageView7"
-        android:layout_alignLeft="@+id/imageView10"
-        android:layout_alignStart="@+id/imageView10" />
-
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:src="@drawable/search"
-        android:id="@+id/imageView9"
-        android:layout_alignTop="@+id/imageView8"
         android:layout_alignLeft="@+id/imageView11"
         android:layout_alignStart="@+id/imageView11" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/chef"
+        android:id="@+id/imageView11"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView10"
+        android:layout_toEndOf="@+id/imageView10" />
 
 
 </RelativeLayout>
