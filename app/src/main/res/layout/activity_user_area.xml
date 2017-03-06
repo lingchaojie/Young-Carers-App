@@ -99,11 +99,11 @@
         android:layout_above="@+id/imageView8"
         android:layout_centerHorizontal="true" />
 
-    <ImageView
+    <ImageButton
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:src="@drawable/teddy"
-        android:id="@+id/imageView3"
+        android:id="@+id/copingMechanisms"
         android:layout_alignTop="@+id/imageView2"
         android:layout_alignLeft="@+id/imageView6"
         android:layout_alignStart="@+id/imageView6" />
