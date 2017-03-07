@@ -37,5 +37,73 @@
         android:layout_alignParentEnd="true"
         android:backgroundTint="@android:color/transparent" />
 
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:src="@drawable/hobby"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:backgroundTint="@android:color/transparent"
+        android:id="@+id/hobby" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/coffee"
+        android:id="@+id/takeTime"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignLeft="@+id/hobby"
+        android:layout_alignStart="@+id/hobby" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/health"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:backgroundTint="@android:color/transparent"
+        android:id="@+id/stayHealthy"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/takeTime"
+        android:layout_alignLeft="@+id/takeTime"
+        android:layout_alignStart="@+id/takeTime" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/money"
+        android:backgroundTint="@android:color/transparent"
+        android:id="@+id/finance"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@+id/homeButton"
+        android:layout_alignLeft="@+id/getOrganised"
+        android:layout_alignStart="@+id/getOrganised" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/clipboard"
+        android:backgroundTint="@android:color/transparent"
+        android:id="@+id/getOrganised"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_above="@+id/finance"
+        android:layout_toRightOf="@+id/takeTime"
+        android:layout_toEndOf="@+id/takeTime"
+        android:layout_marginBottom="50dp" />
+
 </RelativeLayout>
 
