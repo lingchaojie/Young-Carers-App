@@ -1,6 +1,7 @@
 package com.example.login_registernew;
 
 import android.content.Intent;
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -21,6 +22,49 @@ public class CopingMechanisms extends AppCompatActivity {
         homeButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
                 Intent intent = new Intent(CopingMechanisms.this, UserArea.class);
+                startActivity(intent);
+            }
+        });
+
+        //ImageButtons for 5 coping mechanism pop-ups
+        final ImageButton takeTimeButton = (ImageButton) findViewById(R.id.takeTime);
+        final ImageButton hobbyButton = (ImageButton) findViewById(R.id.hobby);
+        final ImageButton stayHealthyButton = (ImageButton) findViewById(R.id.stayHealthy);
+        final ImageButton financeButton = (ImageButton) findViewById(R.id.finance);
+        final ImageButton getOrganisedButton = (ImageButton) findViewById(R.id.getOrganised);
+
+        //on click listeners for coping mechanisms buttons
+        takeTimeButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(CopingMechanisms.this, takeTimePopUp.class);
+                startActivity(intent);
+            }
+        });
+
+        hobbyButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(CopingMechanisms.this, hobbyPopUp.class);
+                startActivity(intent);
+            }
+        });
+
+        stayHealthyButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(CopingMechanisms.this, stayHealthyPopUp.class);
+                startActivity(intent);
+            }
+        });
+
+        financeButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(CopingMechanisms.this, financePopUp.class);
+                startActivity(intent);
+            }
+        });
+
+        getOrganisedButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(CopingMechanisms.this, getOrganisedPopUp.class);
                 startActivity(intent);
             }
         });
