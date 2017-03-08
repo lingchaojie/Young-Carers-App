@@ -20,22 +20,23 @@
         <activity android:name=".Register" />
         <activity android:name=".UserArea" />
         <activity android:name=".CopingMechanisms" />
+
         <activity android:name=".takeTimePopUp"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".hobbyPopUp"
             android:label="@string/title_activity_hobby_pop_up"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/AppTheme.PopUpTheme"/>
         <activity
             android:name=".stayHealthyPopUp"
             android:label="@string/title_activity_stay_healthy_pop_up"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".financePopUp"
             android:label="@string/title_activity_finance_pop_up"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".getOrganisedPopUp"></activity>
+            android:theme="@style/AppTheme.PopUpTheme" />
+        <activity android:name=".getOrganisedPopUp"
+            android:theme="@style/AppTheme.PopUpTheme"/>
     </application>
 
 </manifest>
