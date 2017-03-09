@@ -1,11 +1,9 @@
 package com.example.login_registernew;
 
-import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
+import android.os.Bundle;
+import android.util.DisplayMetrics;
+import android.widget.TextView;
 
 public class financePopUp extends AppCompatActivity {
 
@@ -13,17 +11,20 @@ public class financePopUp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_finance_pop_up);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        //get the resolution of the device screen and store it in variable dm
+        DisplayMetrics dm = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(dm);
+
+        //initialize and setwidth and height variables of pop up window
+        int width = (dm.widthPixels);
+        int height = (dm.heightPixels);
+
+        //set the size of the pop up windows to 80% of the screen size
+        getWindow().setLayout((int)(width*0.8), (int)(height*0.8));
+
+        TextView mytext = (TextView) findViewById(R.id.textView);
+        mytext.setText("financial worries page");
+
     }
-
 }
