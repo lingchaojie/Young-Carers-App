@@ -22,71 +22,55 @@
         android:layout_alignParentEnd="true"
         app:titleTextColor="@android:color/background_light" />
 
-    <ImageView
+    <ImageButton
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:backgroundTint="@android:color/transparent"
         android:src="@drawable/help2"
-        android:id="@+id/imageView9"
-        android:layout_alignTop="@+id/imageView8"
-        android:layout_alignLeft="@+id/imageView11"
-        android:layout_alignStart="@+id/imageView11" />
+        android:id="@+id/helpButton"
+        android:layout_alignTop="@+id/settings"
+        android:layout_alignLeft="@+id/chef"
+        android:layout_alignStart="@+id/chef" />
 
-    <ImageView
+    <ImageButton
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:backgroundTint="@android:color/transparent"
         android:src="@drawable/profile"
-        android:id="@+id/imageView7"
+        android:id="@+id/profile"
         android:layout_marginBottom="29dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/imageView"
-        android:layout_alignStart="@+id/imageView" />
+        android:layout_alignLeft="@+id/vlogs"
+        android:layout_alignStart="@+id/vlogs" />
 
-    <ImageView
+    <ImageButton
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:src="@drawable/calendar3"
-        android:id="@+id/imageView4"
-        android:layout_alignTop="@+id/imageView5"
-        android:layout_alignLeft="@+id/imageView"
-        android:layout_alignStart="@+id/imageView" />
-
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:backgroundTint="@android:color/transparent"
         android:src="@drawable/parents2"
-        android:id="@+id/imageView2"
-        android:layout_alignTop="@+id/imageView1"
-        android:layout_alignLeft="@+id/imageView5"
-        android:layout_alignStart="@+id/imageView5" />
+        android:id="@+id/parentsguardians"
+        android:layout_alignTop="@+id/carerscentre"
+        android:layout_alignLeft="@+id/staff"
+        android:layout_alignStart="@+id/staff" />
 
-    <ImageView
+    <ImageButton
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:src="@drawable/carerscentre"
-        android:id="@+id/imageView1"
-        android:layout_marginTop="19dp"
-        android:layout_below="@+id/toolbar"
-        android:layout_alignLeft="@+id/imageView4"
-        android:layout_alignStart="@+id/imageView4" />
-
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="33dp"
-        android:src="@drawable/staff"
-        android:id="@+id/imageView5"
-        android:layout_below="@+id/imageView2"
-        android:layout_centerHorizontal="true" />
-
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:backgroundTint="@android:color/transparent"
         android:src="@drawable/videocameraicon"
-        android:id="@+id/imageView"
+        android:id="@+id/vlogs"
         android:layout_marginTop="37dp"
-        android:layout_alignTop="@+id/imageView10"
-        android:layout_toLeftOf="@+id/imageView10"
-        android:layout_toStartOf="@+id/imageView10"
+        android:layout_alignTop="@+id/homeIcon"
+        android:layout_toLeftOf="@+id/homeIcon"
+        android:layout_toStartOf="@+id/homeIcon"
         android:layout_marginRight="14dp"
         android:layout_marginEnd="14dp" />
 
@@ -94,9 +78,60 @@
         android:layout_width="160dp"
         android:layout_height="160dp"
         android:src="@drawable/home"
-        android:id="@+id/imageView10"
+        android:id="@+id/homeIcon"
         android:layout_marginBottom="14dp"
-        android:layout_above="@+id/imageView8"
+        android:layout_above="@+id/settings"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/settings"
+        android:id="@+id/settings"
+        android:layout_alignTop="@+id/profile"
+        android:layout_alignLeft="@+id/staff"
+        android:layout_alignStart="@+id/staff" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/chef"
+        android:id="@+id/chef"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_alignTop="@+id/vlogs"
+        android:layout_toRightOf="@+id/homeIcon"
+        android:layout_toEndOf="@+id/homeIcon" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/carerscentre"
+        android:id="@+id/carerscentre"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignLeft="@+id/calendar"
+        android:layout_alignStart="@+id/calendar"
+        />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/staff"
+        android:id="@+id/staff"
+        android:layout_alignTop="@+id/calendar"
         android:layout_centerHorizontal="true" />
 
     <ImageButton
@@ -106,39 +141,35 @@
         android:scaleType="fitCenter"
         android:src="@drawable/teddy"
         android:id="@+id/copingMechanisms"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_alignLeft="@+id/imageView6"
-        android:layout_alignStart="@+id/imageView6"
-        android:backgroundTint="@android:color/white" />
+        android:backgroundTint="@android:color/transparent"
+        android:layout_alignTop="@+id/parentsguardians"
+        android:layout_alignLeft="@+id/games"
+        android:layout_alignStart="@+id/games" />
 
-    <ImageView
+    <ImageButton
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:src="@drawable/settings"
-        android:id="@+id/imageView8"
-        android:layout_alignTop="@+id/imageView7"
-        android:layout_alignLeft="@+id/imageView5"
-        android:layout_alignStart="@+id/imageView5" />
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/calendar3"
+        android:id="@+id/calendar"
+        android:layout_marginBottom="17dp"
+        android:layout_above="@+id/vlogs"
+        android:layout_alignLeft="@+id/vlogs"
+        android:layout_alignStart="@+id/vlogs" />
 
-    <ImageView
+    <ImageButton
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:backgroundTint="@android:color/transparent"
         android:src="@drawable/gamecontroller2"
-        android:id="@+id/imageView6"
-        android:layout_alignTop="@+id/imageView5"
-        android:layout_alignLeft="@+id/imageView11"
-        android:layout_alignStart="@+id/imageView11" />
-
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:src="@drawable/chef"
-        android:id="@+id/imageView11"
-        android:layout_marginLeft="13dp"
-        android:layout_marginStart="13dp"
-        android:layout_alignTop="@+id/imageView"
-        android:layout_toRightOf="@+id/imageView10"
-        android:layout_toEndOf="@+id/imageView10" />
+        android:id="@+id/games"
+        android:layout_alignTop="@+id/staff"
+        android:layout_alignLeft="@+id/chef"
+        android:layout_alignStart="@+id/chef" />
 
 
 </RelativeLayout>
