@@ -21,8 +21,8 @@ public class UserArea extends AppCompatActivity {
         setContentView(R.layout.activity_user_area);
 
 
-        final ImageView imageView1 = (ImageView) findViewById(R.id.imageView1);
-        final ImageView imageView2 = (ImageView) findViewById(R.id.imageView2);
+        final ImageButton carersCentreButton = (ImageButton) findViewById(R.id.carerscentre);
+        final ImageButton parentsguardiansButton = (ImageButton) findViewById(R.id.parentsguardians);
 
         //ImageButton for coping mechanisms icon
         final ImageButton copingMechanismsButton = (ImageButton) findViewById(R.id.copingMechanisms);
@@ -35,12 +35,12 @@ public class UserArea extends AppCompatActivity {
             }
         });
 
-        final ImageView imageView4 = (ImageView) findViewById(R.id.imageView4);
-        final ImageView imageView5 = (ImageView) findViewById(R.id.imageView5);
-        final ImageView imageView6 = (ImageView) findViewById(R.id.imageView6);
-        final ImageView imageView7 = (ImageView) findViewById(R.id.imageView7);
-        final ImageView imageView8 = (ImageView) findViewById(R.id.imageView8);
-        final ImageView imageView9 = (ImageView) findViewById(R.id.imageView9);
+        final ImageButton calendarButton = (ImageButton) findViewById(R.id.calendar);
+        final ImageButton staffButton = (ImageButton) findViewById(R.id.staff);
+        final ImageButton gamesButton = (ImageButton) findViewById(R.id.games);
+        final ImageButton vlogsButton = (ImageButton) findViewById(R.id.vlogs);
+        final ImageButton recipesButton = (ImageButton) findViewById(R.id.recipes);
+        final ImageButton profileButton = (ImageButton) findViewById(R.id.profile);
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 
         setSupportActionBar(toolbar);
