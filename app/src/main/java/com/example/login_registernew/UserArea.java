@@ -37,10 +37,21 @@ public class UserArea extends AppCompatActivity {
 
         final ImageButton calendarButton = (ImageButton) findViewById(R.id.calendar);
         final ImageButton staffButton = (ImageButton) findViewById(R.id.staff);
+
         final ImageButton gamesButton = (ImageButton) findViewById(R.id.games);
+
+        //on click listener to check if the games icon has been pressed
+        gamesButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(UserArea.this, GamesArea.class);
+                startActivity(intent);
+            }
+        });
+
         final ImageButton vlogsButton = (ImageButton) findViewById(R.id.vlogs);
         final ImageButton recipesButton = (ImageButton) findViewById(R.id.recipes);
         final ImageButton profileButton = (ImageButton) findViewById(R.id.profile);
+
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 
         setSupportActionBar(toolbar);
