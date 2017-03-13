@@ -3,6 +3,7 @@ package com.example.login_registernew;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.view.WindowManager;
 import android.widget.TextView;
 
 public class getOrganisedPopUp extends AppCompatActivity {
@@ -21,10 +22,15 @@ public class getOrganisedPopUp extends AppCompatActivity {
         int height = (dm.heightPixels);
 
         //set the size of the pop up windows to 80% of the screen size
-        getWindow().setLayout((int)(width*0.8), (int)(height*0.8));
+        getWindow().setLayout((int)(width*0.85), (int)(height*0.85));
+
+        //set background to dim
+        WindowManager.LayoutParams windowManager = getWindow().getAttributes();
+        windowManager.dimAmount = 0.5f;
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_DIM_BEHIND);
 
         TextView mytext = (TextView) findViewById(R.id.textView);
-        mytext.setText("get organised page");
+        mytext.setText("Get Organised");
 
     }
 }
