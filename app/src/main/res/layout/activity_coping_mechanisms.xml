@@ -5,51 +5,22 @@
     android:id="@+id/activity_coping_mechanisms"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.login_registernew.CopingMechanisms">
-
-    <android.support.v7.widget.Toolbar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorAccent"
-        android:theme="?attr/actionBarTheme"
-        android:minHeight="?attr/actionBarSize"
-        android:id="@+id/toolbar"
-        app:title="Coping Mechanisms"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        app:titleTextColor="@android:color/background_light"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <ImageButton
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:padding="0dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/homebutton"
-        android:id="@+id/homeButton"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:backgroundTint="@android:color/transparent" />
 
     <ImageButton
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="25dp"
-        android:layout_marginStart="25dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
         android:src="@drawable/hobby"
         android:padding="0dp"
         android:scaleType="fitCenter"
         android:backgroundTint="@android:color/transparent"
-        android:id="@+id/hobby" />
+        android:id="@+id/hobby"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="34dp" />
 
     <ImageButton
         android:layout_width="130dp"
@@ -59,10 +30,54 @@
         android:src="@drawable/coffee"
         android:id="@+id/takeTime"
         android:backgroundTint="@android:color/transparent"
-        android:layout_marginTop="21dp"
         android:layout_below="@+id/toolbar"
-        android:layout_alignLeft="@+id/hobby"
-        android:layout_alignStart="@+id/hobby" />
+        android:layout_alignLeft="@+id/stayHealthy"
+        android:layout_alignStart="@+id/stayHealthy"
+        android:layout_marginTop="22dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/homebutton"
+        android:id="@+id/homeButton"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_alignTop="@+id/weblinks"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="0dp"
+        android:src="@drawable/weblinks"
+        android:scaleType="fitCenter"
+        android:id="@+id/weblinks"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="11dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/homeButton"
+        android:layout_toStartOf="@+id/homeButton" />
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorAccent"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        app:title="Coping Mechanisms"
+        app:titleTextColor="@android:color/background_light"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <ImageButton
         android:layout_width="130dp"
@@ -72,10 +87,10 @@
         android:scaleType="fitCenter"
         android:backgroundTint="@android:color/transparent"
         android:id="@+id/stayHealthy"
-        android:layout_marginTop="29dp"
-        android:layout_below="@+id/takeTime"
-        android:layout_alignLeft="@+id/takeTime"
-        android:layout_alignStart="@+id/takeTime" />
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/hobby"
+        android:layout_alignLeft="@+id/hobby"
+        android:layout_alignStart="@+id/hobby" />
 
     <ImageButton
         android:layout_width="130dp"
@@ -85,7 +100,7 @@
         android:src="@drawable/money"
         android:backgroundTint="@android:color/transparent"
         android:id="@+id/finance"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="35dp"
         android:layout_above="@+id/homeButton"
         android:layout_alignLeft="@+id/getOrganised"
         android:layout_alignStart="@+id/getOrganised" />
@@ -98,26 +113,12 @@
         android:src="@drawable/clipboard"
         android:backgroundTint="@android:color/transparent"
         android:id="@+id/getOrganised"
-        android:layout_marginLeft="32dp"
-        android:layout_marginStart="32dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="51dp"
         android:layout_above="@+id/finance"
-        android:layout_toRightOf="@+id/takeTime"
-        android:layout_toEndOf="@+id/takeTime"
-        android:layout_marginBottom="50dp" />
-
-    <ImageButton
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:padding="0dp"
-        android:src="@drawable/weblinks"
-        android:scaleType="fitCenter"
-        android:id="@+id/weblinks"
-        android:backgroundTint="@android:color/transparent"
-        android:layout_marginRight="11dp"
-        android:layout_marginEnd="11dp"
-        android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@+id/homeButton"
-        android:layout_toStartOf="@+id/homeButton" />
+        android:layout_alignRight="@+id/homeButton"
+        android:layout_alignEnd="@+id/homeButton" />
 
 </RelativeLayout>
 
