@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,28 +7,222 @@
     android:fitsSystemWindows="true"
     tools:context="com.example.login_registernew.GamesArea">
 
-    <android.support.design.widget.AppBarLayout
+    <android.support.v7.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppBarOverlay">
+        android:background="?attr/colorAccent"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        app:title="Games Area"
+        app:titleTextColor="@android:color/background_light"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/PopupOverlay" />
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/homebutton"
+        android:id="@+id/homeButton"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="14dp" />
 
-    </android.support.design.widget.AppBarLayout>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/gamecontroller2"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game4"
+        android:layout_below="@+id/game1"
+        android:layout_alignLeft="@+id/game1"
+        android:layout_alignStart="@+id/game1"
+        android:layout_marginTop="13dp" />
 
-    <include layout="@layout/content_games_area" />
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/gamecontroller2"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="23dp"
+        android:id="@+id/game1"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/gamecontroller2"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game3"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_alignBottom="@+id/game1"
+        android:layout_toRightOf="@+id/game1"
+        android:layout_toEndOf="@+id/game1" />
 
-</android.support.design.widget.CoordinatorLayout>
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/gamecontroller2"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game2"
+        android:layout_alignTop="@+id/game4"
+        android:layout_toRightOf="@+id/game4"
+        android:layout_toEndOf="@+id/game4" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/gamecontroller2"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game5"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_toRightOf="@+id/game3"
+        android:layout_toEndOf="@+id/game3" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/gamecontroller2"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game6"
+        android:layout_alignBottom="@+id/game4"
+        android:layout_toRightOf="@+id/game3"
+        android:layout_toEndOf="@+id/game3" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/gamecontroller2"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game8"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/game4"
+        android:layout_toLeftOf="@+id/game2"
+        android:layout_toStartOf="@+id/game2" />
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/gamecontroller2"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game10"
+        android:layout_alignBottom="@+id/homeButton"
+        android:layout_toLeftOf="@+id/homeButton"
+        android:layout_toStartOf="@+id/homeButton" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/gamecontroller2"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game11"
+        android:layout_alignBottom="@+id/game10"
+        android:layout_toLeftOf="@+id/game10"
+        android:layout_toStartOf="@+id/game10" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/gamecontroller2"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game9"
+        android:layout_below="@+id/game8"
+        android:layout_toRightOf="@+id/game12"
+        android:layout_toEndOf="@+id/game12" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/gamecontroller2"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game12"
+        android:layout_above="@+id/homeButton"
+        android:layout_toLeftOf="@+id/game11"
+        android:layout_toStartOf="@+id/game11" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/information"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/information"
+        android:layout_alignTop="@+id/game1"
+        android:layout_alignRight="@+id/homeButton"
+        android:layout_alignEnd="@+id/homeButton" />
+
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/gamecontroller2"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game13"
+        android:layout_above="@+id/game10"
+        android:layout_alignRight="@+id/game5"
+        android:layout_alignEnd="@+id/game5"
+        android:layout_marginBottom="12dp" />
+
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/gamecontroller2"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game14"
+        android:layout_alignTop="@+id/game9"
+        android:layout_alignLeft="@+id/information"
+        android:layout_alignStart="@+id/information" />
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/gamecontroller2"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game15"
+        android:layout_alignBottom="@+id/game2"
+        android:layout_toRightOf="@+id/game13"
+        android:layout_toEndOf="@+id/game13" />
+
+
+</RelativeLayout>
