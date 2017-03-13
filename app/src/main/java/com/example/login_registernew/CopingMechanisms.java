@@ -26,6 +26,17 @@ public class CopingMechanisms extends AppCompatActivity {
             }
         });
 
+        //ImageButton for weblinks button
+        final ImageButton weblinkButton = (ImageButton) findViewById(R.id.weblinks);
+
+        //on click listener to show relevent web links pop up
+        weblinkButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(CopingMechanisms.this, copingWebLinks.class);
+                startActivity(intent);
+            }
+        });
+
         //ImageButtons for 5 coping mechanism pop-ups
         final ImageButton takeTimeButton = (ImageButton) findViewById(R.id.takeTime);
         final ImageButton hobbyButton = (ImageButton) findViewById(R.id.hobby);
