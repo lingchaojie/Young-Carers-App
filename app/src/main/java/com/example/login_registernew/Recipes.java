@@ -39,6 +39,14 @@ public class Recipes extends AppCompatActivity {
         //cooking tips button
         final Button cookingTips = (Button) findViewById(R.id.cookingTips);
 
+        //onclick listener to open cooking tips pop up
+        cookingTips.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Recipes.this, cookingTips.class);
+                startActivity(intent);
+            }
+        });
+
         //imagebuttons for all recipes
         final ImageButton soupButton = (ImageButton) findViewById(R.id.soup);
         final ImageButton stirfryButton = (ImageButton) findViewById(R.id.stirfry);
@@ -46,12 +54,13 @@ public class Recipes extends AppCompatActivity {
         final ImageButton chickenButton = (ImageButton) findViewById(R.id.chicken);
         final ImageButton pastaButton = (ImageButton) findViewById(R.id.pasta);
         final ImageButton pizzaButton = (ImageButton) findViewById(R.id.pizza);
-        final ImageButton stewButton = (ImageButton) findViewById(R.id.stew;
+        final ImageButton stewButton = (ImageButton) findViewById(R.id.stew);
         final ImageButton curryButton = (ImageButton) findViewById(R.id.curry);
         final ImageButton potatoButton = (ImageButton) findViewById(R.id.potatoes);
         final ImageButton breadButton = (ImageButton) findViewById(R.id.bread);
         final ImageButton pieButton = (ImageButton) findViewById(R.id.pie);
         final ImageButton chipsButton = (ImageButton) findViewById(R.id.chips);
+
 
     }
 
