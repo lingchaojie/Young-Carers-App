@@ -36,193 +36,213 @@
         android:layout_marginBottom="14dp" />
 
     <ImageButton
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:src="@drawable/gamecontroller2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/hue"
         android:padding="0dp"
         android:scaleType="fitCenter"
         android:background="@android:color/transparent"
-        android:id="@+id/game4"
-        android:layout_below="@+id/game1"
-        android:layout_alignLeft="@+id/game1"
-        android:layout_alignStart="@+id/game1"
-        android:layout_marginTop="13dp" />
-
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/gamecontroller2"
-        android:padding="0dp"
-        android:scaleType="fitCenter"
-        android:background="@android:color/transparent"
-        android:layout_marginLeft="25dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="23dp"
-        android:id="@+id/game1"
-        android:layout_below="@+id/toolbar"
+        android:id="@+id/game12"
+        android:layout_above="@+id/game11"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
 
     <ImageButton
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:src="@drawable/gamecontroller2"
-        android:padding="0dp"
-        android:scaleType="fitCenter"
-        android:background="@android:color/transparent"
-        android:id="@+id/game3"
-        android:layout_marginLeft="13dp"
-        android:layout_marginStart="13dp"
-        android:layout_alignBottom="@+id/game1"
-        android:layout_toRightOf="@+id/game1"
-        android:layout_toEndOf="@+id/game1" />
-
-    <ImageButton
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:src="@drawable/gamecontroller2"
-        android:padding="0dp"
-        android:scaleType="fitCenter"
-        android:background="@android:color/transparent"
-        android:id="@+id/game2"
-        android:layout_alignTop="@+id/game4"
-        android:layout_toRightOf="@+id/game4"
-        android:layout_toEndOf="@+id/game4" />
-
-    <ImageButton
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:src="@drawable/gamecontroller2"
-        android:padding="0dp"
-        android:scaleType="fitCenter"
-        android:background="@android:color/transparent"
-        android:id="@+id/game5"
-        android:layout_marginTop="11dp"
-        android:layout_below="@+id/toolbar"
-        android:layout_toRightOf="@+id/game3"
-        android:layout_toEndOf="@+id/game3" />
-
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/gamecontroller2"
-        android:padding="0dp"
-        android:scaleType="fitCenter"
-        android:background="@android:color/transparent"
-        android:id="@+id/game6"
-        android:layout_alignBottom="@+id/game4"
-        android:layout_toRightOf="@+id/game3"
-        android:layout_toEndOf="@+id/game3" />
-
-    <ImageButton
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:src="@drawable/gamecontroller2"
-        android:padding="0dp"
-        android:scaleType="fitCenter"
-        android:background="@android:color/transparent"
-        android:id="@+id/game8"
-        android:layout_marginTop="19dp"
-        android:layout_below="@+id/game4"
-        android:layout_toLeftOf="@+id/game2"
-        android:layout_toStartOf="@+id/game2" />
-
-    <ImageButton
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:src="@drawable/gamecontroller2"
-        android:padding="0dp"
-        android:scaleType="fitCenter"
-        android:background="@android:color/transparent"
-        android:id="@+id/game10"
-        android:layout_alignBottom="@+id/homeButton"
-        android:layout_toLeftOf="@+id/homeButton"
-        android:layout_toStartOf="@+id/homeButton" />
-
-    <ImageButton
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:src="@drawable/gamecontroller2"
+        android:src="@drawable/mandala"
         android:padding="0dp"
         android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:id="@+id/game11"
         android:layout_alignBottom="@+id/game10"
-        android:layout_toLeftOf="@+id/game10"
-        android:layout_toStartOf="@+id/game10" />
-
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/gamecontroller2"
-        android:padding="0dp"
-        android:scaleType="fitCenter"
-        android:background="@android:color/transparent"
-        android:id="@+id/game9"
-        android:layout_below="@+id/game8"
         android:layout_toRightOf="@+id/game12"
         android:layout_toEndOf="@+id/game12" />
 
     <ImageButton
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:src="@drawable/gamecontroller2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/colorzen"
         android:padding="0dp"
         android:scaleType="fitCenter"
         android:background="@android:color/transparent"
-        android:id="@+id/game12"
-        android:layout_above="@+id/homeButton"
-        android:layout_toLeftOf="@+id/game11"
-        android:layout_toStartOf="@+id/game11" />
+        android:id="@+id/game15"
+        android:layout_above="@+id/game14"
+        android:layout_alignRight="@+id/game14"
+        android:layout_alignEnd="@+id/game14"
+        android:layout_marginBottom="30dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/brainiton"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game4"
+        android:layout_above="@+id/game15"
+        android:layout_alignRight="@+id/game12"
+        android:layout_alignEnd="@+id/game12" />
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/outfolded"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game16"
+        android:layout_alignBottom="@+id/game8"
+        android:layout_alignRight="@+id/game11"
+        android:layout_alignEnd="@+id/game11" />
 
     <ImageButton
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:src="@drawable/hook"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game8"
+        android:layout_above="@+id/game12"
+        android:layout_alignLeft="@+id/game12"
+        android:layout_alignStart="@+id/game12"
+        android:layout_marginBottom="17dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/brainyoga"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game10"
+        android:layout_alignBottom="@+id/homeButton"
+        android:layout_toLeftOf="@+id/game15"
+        android:layout_toStartOf="@+id/game15" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/light"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game3"
+        android:layout_above="@+id/game8"
+        android:layout_toRightOf="@+id/game8"
+        android:layout_toEndOf="@+id/game8" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/puzzlerama"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game2"
+        android:layout_above="@+id/game4"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:src="@drawable/information"
         android:padding="0dp"
         android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:id="@+id/information"
-        android:layout_alignTop="@+id/game1"
-        android:layout_alignRight="@+id/homeButton"
-        android:layout_alignEnd="@+id/homeButton" />
+        android:layout_above="@+id/game5"
+        android:layout_alignRight="@+id/game15"
+        android:layout_alignEnd="@+id/game15"
+        android:layout_marginBottom="20dp" />
 
     <ImageButton
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:src="@drawable/gamecontroller2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/fluidmonkey"
         android:padding="0dp"
         android:scaleType="fitCenter"
         android:background="@android:color/transparent"
-        android:id="@+id/game13"
-        android:layout_above="@+id/game10"
-        android:layout_alignRight="@+id/game5"
-        android:layout_alignEnd="@+id/game5"
-        android:layout_marginBottom="12dp" />
+        android:id="@+id/game1"
+        android:layout_alignTop="@+id/information"
+        android:layout_alignLeft="@+id/game8"
+        android:layout_alignStart="@+id/game8" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/infinityloop"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game6"
+        android:layout_alignTop="@+id/game3"
+        android:layout_alignLeft="@+id/game9"
+        android:layout_alignStart="@+id/game9" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/innergarden"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game7"
+        android:layout_below="@+id/game3"
+        android:layout_alignRight="@+id/game6"
+        android:layout_alignEnd="@+id/game6" />
 
     <ImageButton
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:src="@drawable/gamecontroller2"
+        android:src="@drawable/blendoku"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game5"
+        android:layout_marginBottom="24dp"
+        android:layout_above="@+id/game15"
+        android:layout_alignRight="@+id/information"
+        android:layout_alignEnd="@+id/information" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/pottery"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:id="@+id/game9"
+        android:layout_alignTop="@+id/game14"
+        android:layout_toLeftOf="@+id/game5"
+        android:layout_toStartOf="@+id/game5" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/polyforge"
         android:padding="0dp"
         android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:id="@+id/game14"
-        android:layout_alignTop="@+id/game9"
-        android:layout_alignLeft="@+id/information"
-        android:layout_alignStart="@+id/information" />
+        android:layout_above="@+id/game10"
+        android:layout_alignRight="@+id/homeButton"
+        android:layout_alignEnd="@+id/homeButton" />
 
     <ImageButton
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:src="@drawable/gamecontroller2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/stack"
         android:padding="0dp"
         android:scaleType="fitCenter"
         android:background="@android:color/transparent"
-        android:id="@+id/game15"
-        android:layout_alignBottom="@+id/game2"
-        android:layout_toRightOf="@+id/game13"
-        android:layout_toEndOf="@+id/game13" />
+        android:id="@+id/game13"
+        android:layout_below="@+id/game8"
+        android:layout_alignRight="@+id/game11"
+        android:layout_alignEnd="@+id/game11" />
 
 
 </RelativeLayout>
