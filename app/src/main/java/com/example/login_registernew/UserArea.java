@@ -27,7 +27,7 @@ public class UserArea extends AppCompatActivity {
         //ImageButton for coping mechanisms icon
         final ImageButton copingMechanismsButton = (ImageButton) findViewById(R.id.copingMechanisms);
 
-        //on click listener to check if the coping mechanisms icon has been pressed
+        //on click listener to link button to coping mechanisms page
         copingMechanismsButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
                 Intent intent = new Intent(UserArea.this, CopingMechanisms.class);
@@ -40,7 +40,7 @@ public class UserArea extends AppCompatActivity {
 
         final ImageButton gamesButton = (ImageButton) findViewById(R.id.games);
 
-        //on click listener to check if the games icon has been pressed
+        //on click listener to link button to games page
         gamesButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
                 Intent intent = new Intent(UserArea.this, GamesArea.class);
@@ -49,7 +49,17 @@ public class UserArea extends AppCompatActivity {
         });
 
         final ImageButton vlogsButton = (ImageButton) findViewById(R.id.vlogs);
+
         final ImageButton recipesButton = (ImageButton) findViewById(R.id.recipes);
+
+        //on click listener to link button to recipes page
+        recipesButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(UserArea.this, Recipes.class);
+                startActivity(intent);
+            }
+        });
+
         final ImageButton profileButton = (ImageButton) findViewById(R.id.profile);
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
