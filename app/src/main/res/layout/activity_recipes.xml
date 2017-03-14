@@ -184,14 +184,26 @@
     <ImageButton
         android:layout_width="70dp"
         android:layout_height="70dp"
+        android:id="@+id/curry"
+        android:src="@drawable/curry"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/stew"
+        android:layout_alignRight="@+id/information"
+        android:layout_alignEnd="@+id/information" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:id="@+id/chips"
         android:src="@drawable/chips"
         android:padding="0dp"
         android:scaleType="fitCenter"
         android:background="@android:color/transparent"
-        android:layout_below="@+id/stew"
-        android:layout_alignLeft="@+id/chicken"
-        android:layout_alignStart="@+id/chicken" />
+        android:layout_alignTop="@+id/pie"
+        android:layout_alignLeft="@+id/homeButton"
+        android:layout_alignStart="@+id/homeButton" />
 
     <ImageButton
         android:layout_width="70dp"
@@ -202,22 +214,7 @@
         android:scaleType="fitCenter"
         android:background="@android:color/transparent"
         android:layout_below="@+id/information"
-        android:layout_alignRight="@+id/homeButton"
-        android:layout_alignEnd="@+id/homeButton"
-        android:layout_marginRight="11dp"
-        android:layout_marginEnd="11dp" />
-
-    <ImageButton
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:id="@+id/curry"
-        android:src="@drawable/curry"
-        android:padding="0dp"
-        android:scaleType="fitCenter"
-        android:background="@android:color/transparent"
-        android:layout_alignTop="@+id/stew"
         android:layout_alignLeft="@+id/chips"
         android:layout_alignStart="@+id/chips" />
-
 
 </RelativeLayout>
