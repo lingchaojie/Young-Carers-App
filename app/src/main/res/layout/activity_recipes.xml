@@ -79,4 +79,145 @@
         android:textAllCaps="false"
         />
 
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/potatoes"
+        android:src="@drawable/potatoes"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/pasta"
+        android:layout_alignLeft="@+id/pasta"
+        android:layout_alignStart="@+id/pasta" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/pizza"
+        android:src="@drawable/pizza"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_alignTop="@+id/pasta"
+        android:layout_toRightOf="@+id/pasta"
+        android:layout_toEndOf="@+id/pasta" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/bread"
+        android:src="@drawable/bread"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/pizza"
+        android:layout_alignLeft="@+id/pizza"
+        android:layout_alignStart="@+id/pizza" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/stirfry"
+        android:src="@drawable/stirfry"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/soup"
+        android:layout_alignLeft="@+id/pizza"
+        android:layout_alignStart="@+id/pizza" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/vegetables"
+        android:src="@drawable/vegetables"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/stirfry"
+        android:layout_toRightOf="@+id/stirfry"
+        android:layout_toEndOf="@+id/stirfry"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/pasta"
+        android:src="@drawable/pasta"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/soup"
+        android:layout_alignLeft="@+id/soup"
+        android:layout_alignStart="@+id/soup" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/pie"
+        android:src="@drawable/pie"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/stew"
+        android:layout_alignLeft="@+id/stew"
+        android:layout_alignStart="@+id/stew" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/stew"
+        android:src="@drawable/stew"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_above="@+id/bread"
+        android:layout_alignLeft="@+id/vegetables"
+        android:layout_alignStart="@+id/vegetables"
+        android:layout_marginBottom="10dp" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/chips"
+        android:src="@drawable/chips"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/stew"
+        android:layout_alignLeft="@+id/chicken"
+        android:layout_alignStart="@+id/chicken" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/chicken"
+        android:src="@drawable/chicken"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/information"
+        android:layout_alignRight="@+id/homeButton"
+        android:layout_alignEnd="@+id/homeButton"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/curry"
+        android:src="@drawable/curry"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/stew"
+        android:layout_alignLeft="@+id/chips"
+        android:layout_alignStart="@+id/chips" />
+
+
 </RelativeLayout>
