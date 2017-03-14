@@ -2,6 +2,7 @@ package com.example.login_registernew;
 
 import android.content.Intent;
 import android.media.Image;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -40,6 +41,139 @@ public class GamesArea extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //imagebuttons for games icons
+        final ImageButton fluidMonkey = (ImageButton) findViewById(R.id.game1);
+        final ImageButton puzzlerama = (ImageButton) findViewById(R.id.game2);
+        final ImageButton light = (ImageButton) findViewById(R.id.game3);
+        final ImageButton brainItOn = (ImageButton) findViewById(R.id.game4);
+        final ImageButton blendoku = (ImageButton) findViewById(R.id.game5);
+        final ImageButton infinityLoop = (ImageButton) findViewById(R.id.game6);
+        final ImageButton innergarden = (ImageButton) findViewById(R.id.game7);
+        final ImageButton hook = (ImageButton) findViewById(R.id.game8);
+        final ImageButton pottery = (ImageButton) findViewById(R.id.game9);
+        final ImageButton brainYoga = (ImageButton) findViewById(R.id.game10);
+        final ImageButton mandala = (ImageButton) findViewById(R.id.game11);
+        final ImageButton hue = (ImageButton) findViewById(R.id.game12);
+        final ImageButton stack = (ImageButton) findViewById(R.id.game13);
+        final ImageButton polyforge = (ImageButton) findViewById(R.id.game14);
+        final ImageButton colorzen = (ImageButton) findViewById(R.id.game15);
+        final ImageButton outfolded = (ImageButton) findViewById(R.id.game16);
+
+        //onlick listeners for games buttons - links to google play store
+
+        fluidMonkey.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.buzzmonkey.FluidMonkey"));
+                startActivity(intent);
+            }
+        });
+
+        puzzlerama.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.leodesol.games.puzzlecollection"));
+                startActivity(intent);
+            }
+        });
+
+        light.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.nicoteam.light"));
+                startActivity(intent);
+            }
+        });
+
+        blendoku.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.lonelyfew.blendoku2"));
+                startActivity(intent);
+            }
+        });
+
+        infinityLoop.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.balysv.loop"));
+                startActivity(intent);
+            }
+        });
+
+        brainItOn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.orbital.brainiton"));
+                startActivity(intent);
+            }
+        });
+
+        brainYoga.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.megafaunasoft.brainyoga"));
+                startActivity(intent);
+            }
+        });
+
+        pottery.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=pl.idreams.potterylite"));
+                startActivity(intent);
+            }
+        });
+
+        polyforge.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.impactbluestudios.polyforge"));
+                startActivity(intent);
+            }
+        });
+
+        stack.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.ketchapp.stack"));
+                startActivity(intent);
+            }
+        });
+
+        colorzen.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.largeanimal.colorzen"));
+                startActivity(intent);
+            }
+        });
+
+        mandala.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.eyewind.colorfit.mandala"));
+                startActivity(intent);
+            }
+        });
+
+        outfolded.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.threesprockets.outfolded"));
+                startActivity(intent);
+            }
+        });
+
+        hook.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.rt.hook"));
+                startActivity(intent);
+            }
+        });
+
+        hue.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.zutgames.ilovehue"));
+                startActivity(intent);
+            }
+        });
+
+        innergarden.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.dustflake.innergarden"));
+                startActivity(intent);
+            }
+        });
+
     }
 
 }
