@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Login_Register NEW</string>
+    <string name="title_activity_hobby_pop_up">hobbyPopUp</string>
+    <string name="title_activity_stay_healthy_pop_up">stayHealthyPopUp</string>
+    <string name="title_activity_finance_pop_up">financePopUp</string>
+    <string name="title_activity_games_area">GamesArea</string>
 </resources>

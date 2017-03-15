@@ -155,9 +155,9 @@
         android:background="@android:color/transparent"
         android:id="@+id/information"
         android:layout_above="@+id/game5"
+        android:layout_marginBottom="20dp"
         android:layout_alignRight="@+id/game15"
-        android:layout_alignEnd="@+id/game15"
-        android:layout_marginBottom="20dp" />
+        android:layout_alignEnd="@+id/game15" />
 
     <ImageButton
         android:layout_width="110dp"

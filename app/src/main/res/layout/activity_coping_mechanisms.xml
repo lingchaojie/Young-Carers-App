@@ -128,7 +128,6 @@
         android:src="@drawable/information"
         android:id="@+id/information"
         android:background="@android:color/transparent"
-
         android:layout_alignTop="@+id/takeTime"
         android:layout_toRightOf="@+id/weblinks"
         android:layout_toEndOf="@+id/weblinks" />

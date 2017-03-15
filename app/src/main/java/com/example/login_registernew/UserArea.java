@@ -32,6 +32,7 @@ public class UserArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(UserArea.this, CopingMechanisms.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -43,6 +44,7 @@ public class UserArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(UserArea.this, CalendarPage.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -56,6 +58,7 @@ public class UserArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(UserArea.this, GamesArea.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -68,6 +71,7 @@ public class UserArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(UserArea.this, Recipes.class);
                 startActivity(intent);
+                finish();
             }
         });
 

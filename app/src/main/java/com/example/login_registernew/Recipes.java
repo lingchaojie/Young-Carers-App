@@ -61,6 +61,91 @@ public class Recipes extends AppCompatActivity {
         final ImageButton pieButton = (ImageButton) findViewById(R.id.pie);
         final ImageButton chipsButton = (ImageButton) findViewById(R.id.chips);
 
+        //on click listeners to link buttons to recipe pop ups
+        soupButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Recipes.this, soupRecipe.class);
+                startActivity(intent);
+            }
+        });
+
+        stirfryButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Recipes.this, stirfryRecipe.class);
+                startActivity(intent);
+            }
+        });
+
+        vegetablesButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Recipes.this, vegetablesRecipe.class);
+                startActivity(intent);
+            }
+        });
+
+        chickenButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Recipes.this, chickenRecipe.class);
+                startActivity(intent);
+            }
+        });
+
+        pastaButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Recipes.this, pastaRecipe.class);
+                startActivity(intent);
+            }
+        });
+
+        pizzaButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Recipes.this, pizzaRecipe.class);
+                startActivity(intent);
+            }
+        });
+
+        stewButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Recipes.this, stewRecipe.class);
+                startActivity(intent);
+            }
+        });
+
+        curryButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Recipes.this, curryRecipe.class);
+                startActivity(intent);
+            }
+        });
+
+        potatoButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Recipes.this, potatoRecipe.class);
+                startActivity(intent);
+            }
+        });
+
+        breadButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Recipes.this, breadRecipe.class);
+                startActivity(intent);
+            }
+        });
+
+        pieButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Recipes.this, pieRecipe.class);
+                startActivity(intent);
+            }
+        });
+
+        chipsButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Recipes.this, chipsRecipe.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 

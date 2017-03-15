@@ -37,6 +37,17 @@ public class CopingMechanisms extends AppCompatActivity {
             }
         });
 
+        //ImageButton for information button
+        final ImageButton informationButton = (ImageButton) findViewById(R.id.information);
+
+        //on click listener to show information pop up
+        informationButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(CopingMechanisms.this, copingMechanismsInfo.class);
+                startActivity(intent);
+            }
+        });
+
         //ImageButtons for 5 coping mechanism pop-ups
         final ImageButton takeTimeButton = (ImageButton) findViewById(R.id.takeTime);
         final ImageButton hobbyButton = (ImageButton) findViewById(R.id.hobby);

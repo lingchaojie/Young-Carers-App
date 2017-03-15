@@ -21,6 +21,8 @@ import org.json.JSONObject;
 
 
 public class Login extends AppCompatActivity {
+
+    public static int userid;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,6 +59,7 @@ public class Login extends AppCompatActivity {
                             if (success) {
                                 String firstname = jsonResponse.getString("firstname");
                                 String lastname = jsonResponse.getString("lastname");
+                                userid = jsonResponse.getInt("userid");
                                 int age = jsonResponse.getInt("age");
 
                                 Intent intent = new Intent(Login.this, UserArea.class);
@@ -64,6 +67,7 @@ public class Login extends AppCompatActivity {
                                 intent.putExtra("lastname",lastname);
                                 intent.putExtra("age", age);
                                 intent.putExtra("username", username);
+                                intent.putExtra("userid",userid);
                                 Login.this.startActivity(intent);
                             } else {
                                 AlertDialog.Builder builder = new AlertDialog.Builder(Login.this);
@@ -85,4 +89,5 @@ public class Login extends AppCompatActivity {
             }
         });
     }
+
 }
