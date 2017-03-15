@@ -111,6 +111,11 @@
             android:name=".chipsRecipe"
             android:theme="@style/AppTheme.PopUpTheme"
             ></activity>
+
+        <activity android:name=".CalendarPage"></activity>
+        <activity android:name=".CalendarWindow"></activity>
+        <activity android:name=".CreateNewEvent"></activity>
+
     </application>
 
 </manifest>
