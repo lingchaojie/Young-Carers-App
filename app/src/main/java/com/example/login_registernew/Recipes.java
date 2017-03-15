@@ -22,6 +22,7 @@ public class Recipes extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Recipes.this, UserArea.class);
                 startActivity(intent);
+                finish();
             }
         });
 

@@ -28,6 +28,7 @@ public class GamesArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(GamesArea.this, UserArea.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -66,6 +67,7 @@ public class GamesArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.buzzmonkey.FluidMonkey"));
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -73,6 +75,7 @@ public class GamesArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.leodesol.games.puzzlecollection"));
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -80,6 +83,7 @@ public class GamesArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.nicoteam.light"));
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -87,6 +91,7 @@ public class GamesArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.lonelyfew.blendoku2"));
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -94,6 +99,7 @@ public class GamesArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.balysv.loop"));
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -101,6 +107,7 @@ public class GamesArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.orbital.brainiton"));
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -108,6 +115,7 @@ public class GamesArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.megafaunasoft.brainyoga"));
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -115,6 +123,7 @@ public class GamesArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=pl.idreams.potterylite"));
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -122,6 +131,7 @@ public class GamesArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.impactbluestudios.polyforge"));
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -129,6 +139,7 @@ public class GamesArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.ketchapp.stack"));
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -136,6 +147,7 @@ public class GamesArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.largeanimal.colorzen"));
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -143,6 +155,7 @@ public class GamesArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.eyewind.colorfit.mandala"));
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -150,6 +163,7 @@ public class GamesArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.threesprockets.outfolded"));
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -157,6 +171,7 @@ public class GamesArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.rt.hook"));
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -164,6 +179,7 @@ public class GamesArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.zutgames.ilovehue"));
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -171,6 +187,7 @@ public class GamesArea extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.dustflake.innergarden"));
                 startActivity(intent);
+                finish();
             }
         });
 

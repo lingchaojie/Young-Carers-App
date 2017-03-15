@@ -23,6 +23,7 @@ public class CopingMechanisms extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(CopingMechanisms.this, UserArea.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -34,6 +35,7 @@ public class CopingMechanisms extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(CopingMechanisms.this, copingWebLinks.class);
                 startActivity(intent);
+                finish();
             }
         });
 
