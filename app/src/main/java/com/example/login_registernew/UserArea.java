@@ -35,7 +35,18 @@ public class UserArea extends AppCompatActivity {
             }
         });
 
+        //imagebutton for calendar icon
         final ImageButton calendarButton = (ImageButton) findViewById(R.id.calendar);
+
+        //on click listener to link button to calendar page
+        calendarButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(UserArea.this, CalendarPage.class);
+                startActivity(intent);
+            }
+        });
+
+
         final ImageButton staffButton = (ImageButton) findViewById(R.id.staff);
 
         final ImageButton gamesButton = (ImageButton) findViewById(R.id.games);
