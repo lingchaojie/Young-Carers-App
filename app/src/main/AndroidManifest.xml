@@ -20,13 +20,13 @@
         <activity android:name=".Register" />
         <activity android:name=".UserArea" />
         <activity android:name=".CopingMechanisms" />
-
-        <activity android:name=".takeTimePopUp"
+        <activity
+            android:name=".takeTimePopUp"
             android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".hobbyPopUp"
             android:label="@string/title_activity_hobby_pop_up"
-            android:theme="@style/AppTheme.PopUpTheme"/>
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".stayHealthyPopUp"
             android:label="@string/title_activity_stay_healthy_pop_up"
@@ -35,8 +35,82 @@
             android:name=".financePopUp"
             android:label="@string/title_activity_finance_pop_up"
             android:theme="@style/AppTheme.PopUpTheme" />
-        <activity android:name=".getOrganisedPopUp"
-            android:theme="@style/AppTheme.PopUpTheme"/>
+        <activity
+            android:name=".getOrganisedPopUp"
+            android:theme="@style/AppTheme.PopUpTheme" />
+        <activity
+            android:name=".GamesArea"
+            android:label="@string/title_activity_games_area"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".copingWebLinks"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
+        <activity
+            android:name=".copingMechanismsInfo"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
+        <activity
+            android:name=".GamesAreaInfo"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
+        <activity android:name=".Recipes" />
+        <activity
+            android:name=".RecipesInformation"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
+        <activity
+            android:name=".cookingTips"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
+        <activity
+            android:name=".soupRecipe"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
+        <activity
+            android:name=".stirfryRecipe"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
+        <activity
+            android:name=".vegetablesRecipe"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
+        <activity
+            android:name=".chickenRecipe"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
+        <activity
+            android:name=".pastaRecipe"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
+        <activity
+            android:name=".pizzaRecipe"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
+        <activity
+            android:name=".stewRecipe"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
+        <activity
+            android:name=".curryRecipe"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
+        <activity
+            android:name=".potatoRecipe"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
+        <activity
+            android:name=".breadRecipe"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
+        <activity
+            android:name=".pieRecipe"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
+        <activity
+            android:name=".chipsRecipe"
+            android:theme="@style/AppTheme.PopUpTheme"
+            ></activity>
     </application>
 
 </manifest>
