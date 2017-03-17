@@ -39,7 +39,6 @@ public class carersCentre extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(carersCentre.this, carersCentreContact.class);
                 startActivity(intent);
-                finish();
             }
         });
 
