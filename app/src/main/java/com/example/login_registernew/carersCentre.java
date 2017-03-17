@@ -35,7 +35,13 @@ public class carersCentre extends AppCompatActivity {
             }
         });
 
-        
+        contactDetailsButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(carersCentre.this, carersCentreContact.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
         //initialise feedback button
         Button feedbackButton = (Button) findViewById(R.id.feedback);
