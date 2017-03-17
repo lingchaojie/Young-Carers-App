@@ -49,4 +49,48 @@
         android:layout_marginRight="14dp"
         android:layout_marginEnd="14dp" />
 
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="255dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_border"
+        android:id="@+id/services"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="185dp"
+        android:layout_height="255dp"
+        android:layout_alignBaseline="@+id/services"
+        android:layout_alignBottom="@+id/services"
+        android:layout_alignRight="@+id/homeButton"
+        android:layout_alignEnd="@+id/homeButton"
+        android:background="@drawable/button_border"
+        android:id="@+id/definition" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:background="@drawable/button_border"
+        android:id="@+id/feedback"
+        android:text="Feedback"
+        android:textAllCaps="false"
+        android:textSize="14pt"
+        android:layout_alignBottom="@+id/contactDetailsButton"
+        android:layout_alignLeft="@+id/events"
+        android:layout_alignStart="@+id/events" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="125dp"
+        android:background="@drawable/button_border"
+        android:id="@+id/events"
+        android:layout_above="@+id/feedback"
+        android:layout_alignLeft="@+id/services"
+        android:layout_alignStart="@+id/services"
+        android:layout_marginBottom="11dp" />
+
 </RelativeLayout>
