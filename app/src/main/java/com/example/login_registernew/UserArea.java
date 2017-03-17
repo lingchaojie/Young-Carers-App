@@ -20,8 +20,18 @@ public class UserArea extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_area);
 
-
+        //ImageButton for carers centre icon
         final ImageButton carersCentreButton = (ImageButton) findViewById(R.id.carerscentre);
+
+        //onclick listener to link icon to carers centre page
+        carersCentreButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(UserArea.this, carersCentre.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
         final ImageButton parentsguardiansButton = (ImageButton) findViewById(R.id.parentsguardians);
 
         //ImageButton for coping mechanisms icon
