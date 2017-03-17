@@ -1,7 +1,9 @@
 package com.example.login_registernew;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -23,6 +25,17 @@ public class carersCentre extends AppCompatActivity {
         //initialise imagebuttons
         ImageButton homeButton = (ImageButton) findViewById(R.id.homeButton);
         ImageButton contactDetailsButton = (ImageButton) findViewById(R.id.contactDetailsButton);
+
+        //onclick listeners for imagebuttons
+        homeButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(carersCentre.this, UserArea.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        
 
         //initialise feedback button
         Button feedbackButton = (Button) findViewById(R.id.feedback);
