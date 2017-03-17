@@ -8,10 +8,9 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Sunderland Carers Centre"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:largeHeap="true"
-        >
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,78 +45,64 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".copingWebLinks"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".copingMechanismsInfo"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".GamesAreaInfo"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity android:name=".Recipes" />
         <activity
             android:name=".RecipesInformation"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".cookingTips"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".soupRecipe"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".stirfryRecipe"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".vegetablesRecipe"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".chickenRecipe"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".pastaRecipe"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".pizzaRecipe"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".stewRecipe"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".curryRecipe"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".potatoRecipe"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".breadRecipe"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".pieRecipe"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".chipsRecipe"
+            android:theme="@style/AppTheme.PopUpTheme" />
+        <activity android:name=".CalendarPage" />
+        <activity android:name=".CalendarWindow" />
+        <activity android:name=".CreateNewEvent" />
+        <activity android:name=".carersCentre" />
+        <activity
+            android:name=".carersCentreContact"
             android:theme="@style/AppTheme.PopUpTheme"
             ></activity>
-
-        <activity android:name=".CalendarPage"></activity>
-        <activity android:name=".CalendarWindow"></activity>
-        <activity android:name=".CreateNewEvent"></activity>
-
     </application>
 
 </manifest>
