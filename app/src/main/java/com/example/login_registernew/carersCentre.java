@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -22,6 +23,16 @@ public class carersCentre extends AppCompatActivity {
         TextView Services = (TextView) findViewById(R.id.services);
         TextView Definition = (TextView) findViewById(R.id.definition);
         TextView Events = (TextView) findViewById(R.id.events);
+
+        //add title text to information textviews
+        Services.setText("Services");
+        Definition.setText("What is a young carer?");
+        Events.setText("News and Events");
+
+        //make textviews scrollable
+        Services.setMovementMethod(new ScrollingMovementMethod());
+        Definition.setMovementMethod(new ScrollingMovementMethod());
+        Events.setMovementMethod(new ScrollingMovementMethod());
 
         //initialise imagebuttons
         ImageButton homeButton = (ImageButton) findViewById(R.id.homeButton);
