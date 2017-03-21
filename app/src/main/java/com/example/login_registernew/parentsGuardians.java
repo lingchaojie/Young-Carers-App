@@ -16,6 +16,11 @@ public class parentsGuardians extends AppCompatActivity {
         TextView supportCentre = (TextView) findViewById(R.id.supportCentre);
         TextView supportCarer = (TextView) findViewById(R.id.supportCarer);
 
+        //add title text to information textviews
+        ToDo.setText("To-do");
+        supportCentre.setText("How you can support the carers centre");
+        supportCarer.setText("How to support a young carer in your life");
         
+
     }
 }
