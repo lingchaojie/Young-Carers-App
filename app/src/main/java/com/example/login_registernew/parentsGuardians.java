@@ -2,6 +2,7 @@ package com.example.login_registernew;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.widget.TextView;
 
 public class parentsGuardians extends AppCompatActivity {
@@ -20,7 +21,10 @@ public class parentsGuardians extends AppCompatActivity {
         ToDo.setText("To-do");
         supportCentre.setText("How you can support the carers centre");
         supportCarer.setText("How to support a young carer in your life");
-        
 
+        //make textviews scrollable
+        ToDo.setMovementMethod(new ScrollingMovementMethod());
+        supportCentre.setMovementMethod(new ScrollingMovementMethod());
+        supportCarer.setMovementMethod(new ScrollingMovementMethod());
     }
 }
