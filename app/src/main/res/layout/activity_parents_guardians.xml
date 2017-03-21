@@ -20,21 +20,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <Button
-        android:layout_width="270dp"
-        android:layout_height="60dp"
-        android:background="@drawable/button_border"
-        android:id="@+id/feedback"
-        android:text="Suggestions"
-        android:textAllCaps="false"
-        android:textSize="14pt"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="22dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginBottom="15dp" />
-
     <ImageButton
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -66,21 +51,6 @@
         android:layout_alignStart="@+id/feedback" />
 
     <TextView
-        android:layout_width="170dp"
-        android:layout_height="255dp"
-        android:background="@drawable/button_border"
-        android:id="@+id/supportCentre"
-        android:textAlignment="center"
-        android:padding="5dp"
-        android:textSize="24sp"
-        android:maxLines = "10"
-        android:scrollbars = "vertical"
-        android:layout_above="@+id/supportCarer"
-        android:layout_alignRight="@+id/supportCarer"
-        android:layout_alignEnd="@+id/supportCarer"
-        android:layout_marginBottom="15dp" />
-
-    <TextView
         android:layout_width="150dp"
         android:layout_height="255dp"
         android:background="@drawable/button_border"
@@ -93,5 +63,34 @@
         android:layout_alignTop="@+id/supportCentre"
         android:layout_alignLeft="@+id/supportCarer"
         android:layout_alignStart="@+id/supportCarer" />
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="255dp"
+        android:background="@drawable/button_border"
+        android:id="@+id/supportCentre"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:maxLines = "10"
+        android:scrollbars = "vertical"
+        android:layout_marginBottom="17dp"
+        android:layout_above="@+id/supportCarer"
+        android:layout_alignRight="@+id/supportCarer"
+        android:layout_alignEnd="@+id/supportCarer" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_border"
+        android:id="@+id/feedback"
+        android:text="Suggestions"
+        android:textAllCaps="false"
+        android:textSize="14pt"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp"
+        android:layout_alignTop="@+id/homeButton"
+        android:layout_toLeftOf="@+id/homeButton"
+        android:layout_toStartOf="@+id/homeButton" />
 
 </RelativeLayout>
