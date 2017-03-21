@@ -34,6 +34,15 @@ public class UserArea extends AppCompatActivity {
 
         final ImageButton parentsguardiansButton = (ImageButton) findViewById(R.id.parentsguardians);
 
+        //on click listener to link button to parents & guardians page
+        parentsguardiansButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(UserArea.this, parentsGuardians.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
         //ImageButton for coping mechanisms icon
         final ImageButton copingMechanismsButton = (ImageButton) findViewById(R.id.copingMechanisms);
 
