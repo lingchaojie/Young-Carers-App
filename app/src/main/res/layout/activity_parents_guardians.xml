@@ -20,4 +20,19 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:background="@drawable/button_border"
+        android:id="@+id/feedback"
+        android:text="Suggestions"
+        android:textAllCaps="false"
+        android:textSize="14pt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="15dp" />
+
 </RelativeLayout>
