@@ -1,10 +1,12 @@
 package com.example.login_registernew;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -33,12 +35,23 @@ public class parentsGuardians extends AppCompatActivity {
         //initialise imagebuttons
         ImageButton homeButton = (ImageButton) findViewById(R.id.homeButton);
 
-        //onclick listeners for imagebuttons
+        //onclick listeners for imagebutton
         homeButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
                 Intent intent = new Intent(parentsGuardians.this, UserArea.class);
                 startActivity(intent);
                 finish();
+            }
+        });
+
+        //initialise feedback button
+        Button suggestionsButton = (Button) findViewById(R.id.feedback);
+
+        //on click listener for feedback button
+        suggestionsButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(new Intent(Intent.ACTION_VIEW, Uri.parse("http://sunderlandcarers.co.uk/consultations.html")));
+                startActivity(intent);
             }
         });
     }
