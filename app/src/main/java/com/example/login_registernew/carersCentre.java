@@ -1,6 +1,7 @@
 package com.example.login_registernew;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -44,5 +45,13 @@ public class carersCentre extends AppCompatActivity {
 
         //initialise feedback button
         Button feedbackButton = (Button) findViewById(R.id.feedback);
+
+        //on click listener for feedback button
+        feedbackButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(new Intent(Intent.ACTION_VIEW, Uri.parse("http://sunderlandcarers.co.uk/consultations.html")));
+                startActivity(intent);
+            }
+        });
     }
 }
