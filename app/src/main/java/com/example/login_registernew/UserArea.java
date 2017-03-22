@@ -67,8 +67,17 @@ public class UserArea extends AppCompatActivity {
             }
         });
 
-
+        //image button for staff icon
         final ImageButton staffButton = (ImageButton) findViewById(R.id.staff);
+
+        //on click listener to link button to staff page
+        staffButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(UserArea.this, staffPage.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
         final ImageButton gamesButton = (ImageButton) findViewById(R.id.games);
 
