@@ -86,6 +86,14 @@ public class UserArea extends AppCompatActivity {
 
         final ImageButton vlogsButton = (ImageButton) findViewById(R.id.vlogs);
 
+        //on click listener to link button to vlogs page
+        vlogsButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(UserArea.this, Vlogs.class);
+                startActivity(intent);
+            }
+        });
+
         final ImageButton recipesButton = (ImageButton) findViewById(R.id.recipes);
 
         //on click listener to link button to recipes page
