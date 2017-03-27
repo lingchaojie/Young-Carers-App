@@ -101,6 +101,12 @@
         <activity android:name=".carersCentre" />
         <activity
             android:name=".carersCentreContact"
+            android:theme="@style/AppTheme.PopUpTheme" />
+        <activity android:name=".parentsGuardians" />
+        <activity android:name=".staffPage" />
+        <activity android:name=".Vlogs" />
+        <activity
+            android:name=".messagingRules"
             android:theme="@style/AppTheme.PopUpTheme"
             ></activity>
     </application>
