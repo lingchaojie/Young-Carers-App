@@ -24,5 +24,16 @@ public class staffPage extends AppCompatActivity {
                 finish();
             }
         });
+
+        //imagebutton for information button
+        final ImageButton informationButton = (ImageButton) findViewById(R.id.information);
+
+        //on click listener to link button to information page
+        informationButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(staffPage.this, messagingRules.class);
+                startActivity(intent);
+            }
+        });
     }
 }
