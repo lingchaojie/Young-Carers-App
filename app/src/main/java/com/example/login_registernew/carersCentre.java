@@ -27,7 +27,7 @@ public class carersCentre extends AppCompatActivity {
         //add title text to information textviews
         Services.setText("Services");
         Definition.setText("What is a young carer?");
-        Events.setText("News and Events");
+        Events.setText("Embedded Google Maps");
 
         //make textviews scrollable
         Services.setMovementMethod(new ScrollingMovementMethod());
