@@ -67,5 +67,16 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="14dp" />
 
+    <Button
+        android:layout_width="265dp"
+        android:layout_height="55dp"
+        android:id="@+id/button"
+        android:background="@drawable/button_border"
+        android:text="Carers Centre Info"
+        android:textSize="22dp"
+        android:layout_alignBottom="@+id/homeButton"
+        android:layout_alignLeft="@+id/places"
+        android:layout_alignStart="@+id/places" />
+
 
 </RelativeLayout>
