@@ -74,6 +74,7 @@ public class UserArea extends AppCompatActivity {
             }
         });
 
+        //image button for games icon
         final ImageButton gamesButton = (ImageButton) findViewById(R.id.games);
 
         //on click listener to link button to games page
@@ -84,8 +85,10 @@ public class UserArea extends AppCompatActivity {
             }
         });
 
+        //image button for vlogs icon
         final ImageButton vlogsButton = (ImageButton) findViewById(R.id.vlogs);
 
+        //image button for recipes icon
         final ImageButton recipesButton = (ImageButton) findViewById(R.id.recipes);
 
         //on click listener to link button to recipes page
@@ -96,7 +99,31 @@ public class UserArea extends AppCompatActivity {
             }
         });
 
+        //image button for profile icon
         final ImageButton profileButton = (ImageButton) findViewById(R.id.profile);
+
+        //image button for extra info icon
+        final ImageButton extraInfoButton = (ImageButton) findViewById(R.id.extrainfo);
+
+        //on click listener for extra info page
+        extraInfoButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(UserArea.this, extraInfo.class);
+                startActivity(intent);
+            }
+        });
+
+        //image button for help icon
+        final ImageButton helpButton = (ImageButton) findViewById(R.id.helpButton);
+
+        //on click listener for help page
+
+        helpButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(UserArea.this, helpPage.class);
+                startActivity(intent);
+            }
+        });
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 
