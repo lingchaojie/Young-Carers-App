@@ -1,8 +1,11 @@
 package com.example.login_registernew;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class extraInfo extends AppCompatActivity {
@@ -23,7 +26,17 @@ public class extraInfo extends AppCompatActivity {
         freeStuff.setMovementMethod(new ScrollingMovementMethod());
         places.setMovementMethod(new ScrollingMovementMethod());
 
-        
+        //initialise home button
+        ImageButton homeButton = (ImageButton) findViewById(R.id.homeButton);
+
+        //onclick listeners for imagebuttons
+        homeButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(carersCentre.this, UserArea.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
     }
 }
