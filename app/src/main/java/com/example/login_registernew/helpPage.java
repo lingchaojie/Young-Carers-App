@@ -53,6 +53,9 @@ public class helpPage extends AppCompatActivity {
             }
         });
 
-
+        //content for question anwsers
+        Q1A.setText("This app is for use by young carers at Sunderland Young Carers Centre. Just create an account on the login page, and you can access loads of great information about being a young carer. ");
+        Q2A.setText("If you're not sure what a page is for or what kind of information it is displaying, then click the yellow i button to get some more information about the purpose of that section of the app!");
+        Q3A.setText("This app doesn't have any messaging forums to chat to your friends, but it's still really important to talk to your friends about your feelings and what it's like to be a young carer.");
     }
 }
