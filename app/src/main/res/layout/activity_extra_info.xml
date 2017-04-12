@@ -70,7 +70,7 @@
     <Button
         android:layout_width="265dp"
         android:layout_height="55dp"
-        android:id="@+id/button"
+        android:id="@+id/carersCentreButton"
         android:background="@drawable/button_border"
         android:text="Carers Centre Info"
         android:textSize="22dp"
