@@ -1,8 +1,11 @@
 package com.example.login_registernew;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -28,6 +31,20 @@ public class helpPage extends AppCompatActivity {
 
         //initialise licenses button
         Button Licenses = (Button) findViewById(R.id.LicensesButton);
+
+        //initialise home button
+        ImageButton homeButton = (ImageButton) findViewById(R.id.homeButton);
+
+        //on click listener for home button
+        homeButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(helpPage.this, UserArea.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        
 
     }
 }
