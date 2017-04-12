@@ -2,6 +2,7 @@ package com.example.login_registernew;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -25,7 +26,8 @@ public class helpPage extends AppCompatActivity {
         ImageView Q2Icon = (ImageView) findViewById(R.id.Q2Icon);
         ImageView Q3Icon = (ImageView) findViewById(R.id.Q3Icon);
 
-        
+        //initialise licenses button
+        Button Licenses = (Button) findViewById(R.id.LicensesButton);
 
     }
 }
