@@ -32,6 +32,15 @@ public class helpPage extends AppCompatActivity {
         //initialise licenses button
         Button Licenses = (Button) findViewById(R.id.LicensesButton);
 
+        //on click listener for licenses button
+        Licenses.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent = new Intent(helpPage.this, LicensesPage.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
         //initialise home button
         ImageButton homeButton = (ImageButton) findViewById(R.id.homeButton);
 
@@ -44,7 +53,6 @@ public class helpPage extends AppCompatActivity {
             }
         });
 
-        
 
     }
 }
