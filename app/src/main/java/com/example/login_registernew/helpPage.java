@@ -35,7 +35,7 @@ public class helpPage extends AppCompatActivity {
         //on click listener for licenses button
         Licenses.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
-                Intent intent = new Intent(helpPage.this, LicensesPage.class);
+                Intent intent = new Intent(helpPage.this, licensesPage.class);
                 startActivity(intent);
                 finish();
             }
