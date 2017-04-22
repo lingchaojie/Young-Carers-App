@@ -35,7 +35,6 @@ public class carersCentre extends AppCompatActivity implements OnMapReadyCallbac
         //add title text to information textviews
         Services.setText("Services");
         Definition.setText("What is a young carer?");
-        Events.setText("Embedded Google Maps");
 
         //make textviews scrollable
         Services.setMovementMethod(new ScrollingMovementMethod());
@@ -73,13 +72,14 @@ public class carersCentre extends AppCompatActivity implements OnMapReadyCallbac
             }
         });
 
-        //initialise map fragement
+        //initialise map fragment
         MapFragment centreMap = (MapFragment) getFragmentManager()
                 .findFragmentById(map);
         centreMap.getMapAsync(this);
 
     }
-    
+
+    @Override
     public void onMapReady(GoogleMap map) {
         map.addMarker(new MarkerOptions()
                 .position(new LatLng(0, 0))
