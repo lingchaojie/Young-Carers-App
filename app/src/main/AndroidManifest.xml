@@ -112,10 +112,9 @@
         <activity
             android:name=".licensesPage"
             android:theme="@style/AppTheme.PopUpTheme" ></activity>
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAvGOZAPFGo4X1f1JTazXWDf1lPQDP9KSo"/>
     </application>
-
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 </manifest>
