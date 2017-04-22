@@ -10,9 +10,17 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
 import org.w3c.dom.Text;
 
-public class carersCentre extends AppCompatActivity {
+import static com.example.login_registernew.R.id.map;
+
+public class carersCentre extends AppCompatActivity implements OnMapReadyCallback {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,5 +72,18 @@ public class carersCentre extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //initialise map fragement
+        MapFragment centreMap = (MapFragment) getFragmentManager()
+                .findFragmentById(map);
+        centreMap.getMapAsync(this);
+
     }
+    
+    public void onMapReady(GoogleMap map) {
+        map.addMarker(new MarkerOptions()
+                .position(new LatLng(0, 0))
+                .title("Marker"));
+    }
+
 }
