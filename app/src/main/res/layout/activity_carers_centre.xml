@@ -5,6 +5,7 @@
     android:id="@+id/activity_carers_centre"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.login_registernew.carersCentre">
 
     <ImageButton
@@ -114,6 +115,10 @@
         android:layout_height="125dp"
         android:layout_below="@+id/services"
         android:layout_alignLeft="@+id/events"
-        android:layout_alignStart="@+id/events" />
+        android:layout_alignStart="@+id/events"
+        map:cameraTargetLat="54.92378"
+        map:cameraTargetLng="-1.392862"
+        map:cameraZoom="17"
+        />
 
 </RelativeLayout>
