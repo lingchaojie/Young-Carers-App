@@ -123,26 +123,29 @@
             android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".staffContact2"
-            android:theme="@style/AppTheme.PopUpTheme"
-            />
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".staffContact3"
-            android:theme="@style/AppTheme.PopUpTheme"/>
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".staffContact4"
-            android:theme="@style/AppTheme.PopUpTheme"/>
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".staffContact5"
-            android:theme="@style/AppTheme.PopUpTheme"/>
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".staffContact6"
-            android:theme="@style/AppTheme.PopUpTheme"/>
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".staffContact7"
-            android:theme="@style/AppTheme.PopUpTheme"/>
+            android:theme="@style/AppTheme.PopUpTheme" />
         <activity
             android:name=".staffContact8"
-            android:theme="@style/AppTheme.PopUpTheme"/>
+            android:theme="@style/AppTheme.PopUpTheme" />
+        <activity
+            android:name=".staffPhone"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
     </application>
 
 </manifest>
