@@ -32,5 +32,9 @@ public class staffPhone extends AppCompatActivity {
         //initialise text views
         TextView title = (TextView) findViewById(R.id.textView);
         TextView phone = (TextView) findViewById(R.id.phone);
+
+        //set text
+        title.setText("Staff Phone Number");
+        phone.setText("0191 549 3768");
     }
 }
