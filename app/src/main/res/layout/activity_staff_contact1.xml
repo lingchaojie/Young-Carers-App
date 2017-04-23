@@ -17,4 +17,36 @@
         android:textColor="#ffffff"
         android:background="#6600cc" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/name"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/email"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_below="@+id/job"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/job"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
 </RelativeLayout>
