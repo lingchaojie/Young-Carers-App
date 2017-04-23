@@ -29,13 +29,13 @@ public class staffPage extends AppCompatActivity {
             }
         });
 
-        //imagebutton for information button
-        final Button informationButton = (Button) findViewById(R.id.information);
+        //imagebutton for phone button
+        final ImageButton phoneButton = (ImageButton) findViewById(R.id.phone);
 
         //on click listener to link button to information page
-        informationButton.setOnClickListener(new View.OnClickListener() {
+        phoneButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(staffPage.this, messagingRules.class);
+                Intent intent = new Intent(staffPage.this, staffPhone.class);
                 startActivity(intent);
             }
         });
