@@ -3,6 +3,7 @@
     package="com.example.login_registernew">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -111,10 +112,37 @@
         <activity android:name=".helpPage" />
         <activity
             android:name=".licensesPage"
-            android:theme="@style/AppTheme.PopUpTheme" ></activity>
+            android:theme="@style/AppTheme.PopUpTheme" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAvGOZAPFGo4X1f1JTazXWDf1lPQDP9KSo"/>
+            android:value="AIzaSyAvGOZAPFGo4X1f1JTazXWDf1lPQDP9KSo" />
+
+        <activity
+            android:name=".staffContact1"
+            android:theme="@style/AppTheme.PopUpTheme" />
+        <activity
+            android:name=".staffContact2"
+            android:theme="@style/AppTheme.PopUpTheme"
+            />
+        <activity
+            android:name=".staffContact3"
+            android:theme="@style/AppTheme.PopUpTheme"/>
+        <activity
+            android:name=".staffContact4"
+            android:theme="@style/AppTheme.PopUpTheme"/>
+        <activity
+            android:name=".staffContact5"
+            android:theme="@style/AppTheme.PopUpTheme"/>
+        <activity
+            android:name=".staffContact6"
+            android:theme="@style/AppTheme.PopUpTheme"/>
+        <activity
+            android:name=".staffContact7"
+            android:theme="@style/AppTheme.PopUpTheme"/>
+        <activity
+            android:name=".staffContact8"
+            android:theme="@style/AppTheme.PopUpTheme"/>
     </application>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
 </manifest>
