@@ -29,7 +29,17 @@ public class staffContact1 extends AppCompatActivity {
         windowManager.dimAmount = 0.5f;
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_DIM_BEHIND);
 
-        TextView mytext = (TextView) findViewById(R.id.textView);
-        mytext.setText("Cooking Tips");
+        //initialise text views
+        TextView title = (TextView) findViewById(R.id.textView);
+        TextView name = (TextView) findViewById(R.id.name);
+        TextView job = (TextView) findViewById(R.id.job);
+        TextView email = (TextView) findViewById(R.id.email);
+
+        //set text
+        title.setText("Contact");
+        name.setText("Chris Ranson");
+        job.setText("Carer Practitioner Engagement Lead ");
+        email.setText("chris@sunderlandcarers.co.uk");
+
     }
 }
